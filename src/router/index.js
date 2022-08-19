@@ -1,12 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import { isMobileTerminal } from '@/utils/flexible'
-import mobileRoutes from './modules/mobile-routes'
-import pcRoutes from './modules/pc-routes'
+import mobileTerminalRoutes from './modules/mobile-routes'
+import pcTerminalRoutes from './modules/pc-routes'
 
-// 创建vueRouter 实例
+// 创建 vueRouter 实例
 const router = createRouter({
     history: createWebHistory(),
-    routes: isMobileTerminal.value ? mobileRoutes : pcRoutes
+    routes: isMobileTerminal.value ? mobileTerminalRoutes : pcTerminalRoutes
 })
 
 export default router
