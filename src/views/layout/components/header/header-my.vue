@@ -1,6 +1,6 @@
 <template>
     <div>
-        My icon
+        My
     </div>
 </template>
 
