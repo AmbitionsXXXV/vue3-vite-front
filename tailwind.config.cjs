@@ -12,6 +12,10 @@ module.exports = {
       },
       boxShadow: {
         'l-white': '-10px 0 10px white'
+      },
+      height: {
+        header: '72px',
+        main: 'calc(100vh - 72px)'
       }
     },
   },
