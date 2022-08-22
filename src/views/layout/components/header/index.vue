@@ -5,7 +5,7 @@
         <div class="flex items-center">
             <img
                 class="h-4 cursor-pointer mr-2 rounded"
-                src="../../../../assets/images/oor.JPG"
+                src="../../../../assets/vue.svg"
                 @click="onToHome">
             <header-search-vue class="mr-1"></header-search-vue>
             <header-theme-vue class="mr-1"></header-theme-vue>
