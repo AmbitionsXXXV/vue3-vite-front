@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white sticky top-0 left-0 z-10">
+    <div class="bg-white dark:bg-zinc-900 sticky top-0 left-0 z-10 duration-500">
         <ul
             class="relative flex overflow-x-auto p-1 text-xs text-zinc-600 overflow-hidden"
             ref="ulTarget"
@@ -9,13 +9,13 @@
             <li
                 ref="sliderTarget"
                 :style="sliderStyle"
-                class="absolute h-[22px] bg-zinc-900 rounded-lg
+                class="absolute h-[22px] bg-zinc-900 dark:bg-zinc-800 rounded-lg
                 duration-200"></li>
 
             <!-- 汉堡按钮 -->
             <li
-                class="z-20 fixed top-0 right-[-1px] h-4
-                px-1 flex items-center bg-white shadow-l-white"
+                class="z-20 fixed top-0 right-[-1px] h-4 dark:bg-zinc-900
+                px-1 flex items-center bg-white shadow-l-white dark:shadow-l-zinc"
                 @click="onShowPopup"
                 >
                 <m-svg-icon class="w-1.5 h-1.5" name="hamburger"></m-svg-icon>
