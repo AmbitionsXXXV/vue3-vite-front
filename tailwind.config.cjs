@@ -22,8 +22,8 @@ module.exports = {
         main: 'calc(100vh - 72px)'
       },
       colors: {
-        main: '#88f5c7',
-        'hover-main': '#44ffc7'
+        main: '#00ffd9',
+        'hover-main': '#66cec7'
       }
     },
   },
