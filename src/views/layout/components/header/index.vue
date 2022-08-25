@@ -4,6 +4,7 @@
         dark:border-b-zinc-700 px-2 py-1 duration-500">
         <div class="flex items-center">
             <img
+                v-lazy
                 class="h-4 cursor-pointer mr-2 rounded"
                 src="../../../../assets/vue.svg"
                 @click="onToHome">
