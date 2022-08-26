@@ -96,4 +96,18 @@ watch(
         })
     }
 )
+
+/**
+ * 监听搜索内容项的变化
+ */
+watch(
+    () => store.getters.searchText,
+    (val) => {
+        // 重置请求参数
+        resetQuery({
+            page: 1,
+            searchText: val
+        })
+    }
+)
 </script>
