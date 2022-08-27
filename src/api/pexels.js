@@ -30,3 +30,12 @@ export const getThemes = () => {
         url: '/pexels/themes'
     })
 }
+
+/**
+ * 获取指定图片数据
+ */
+export const getPexelsFromId = (id) => {
+    return request({
+        url: `/pexels/${id}`
+    })
+}
