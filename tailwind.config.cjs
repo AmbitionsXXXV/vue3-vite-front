@@ -24,8 +24,13 @@ module.exports = {
       colors: {
         main: '#00ffd9',
         'hover-main': '#66cec7'
+      },
+      variants: {
+        scrollbar: ['dark']
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar')
+  ],
 }

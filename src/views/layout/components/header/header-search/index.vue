@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full">
+    <div class="w-full guide-search">
         <m-search
             v-model="inputValue"
             @search="onSearchHandler"

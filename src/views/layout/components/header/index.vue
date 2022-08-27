@@ -5,7 +5,7 @@
         <div class="flex items-center">
             <img
                 v-lazy
-                class="h-4 cursor-pointer mr-2 rounded"
+                class="guide-home h-4 cursor-pointer mr-2 rounded"
                 src="../../../../assets/vue.svg"
                 @click="onToHome">
             <header-search-vue class="mr-1"></header-search-vue>
