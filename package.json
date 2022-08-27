@@ -14,6 +14,7 @@
     "driver.js": "^0.9.8",
     "file-saver": "^2.0.5",
     "gsap": "^3.9.1",
+    "vee-validate": "^4.5.10",
     "vue": "^3.2.37",
     "vue-router": "^4.0.14",
     "vuex": "^4.0.2",
