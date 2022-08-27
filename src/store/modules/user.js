@@ -1,4 +1,4 @@
-import { loginUser, getProfile } from '@/api/sys'
+import { loginUser, getProfile, registerUser } from '@/api/sys'
 import md5 from 'md5'
 import { message } from '@/libs'
 
