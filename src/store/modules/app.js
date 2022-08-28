@@ -6,7 +6,9 @@ export default {
         // 当前选中的分类
         currentCategory: ALL_CATEGORY_ITEM,
         // 搜索的文本
-        searchText: ''
+        searchText: '',
+        // 路由跳转类型
+        routerType: 'none'
     }),
     mutations: {
         /**
@@ -21,5 +23,11 @@ export default {
         changeSearchText(state, newSearchText) {
             state.searchText = newSearchText
         },
+        /**
+         * 修改 routerType
+         */
+        changeRouterType(state, newType) {
+            state.routerType = newType
+        }
     }
 }

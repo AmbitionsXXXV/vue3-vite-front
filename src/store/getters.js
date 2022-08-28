@@ -1,3 +1,5 @@
+import { isMobileTerminal } from '@/utils/flexible'
+
 export default {
     // 简单访问
     categorys: state => state.category.categorys,
@@ -32,5 +34,13 @@ export default {
     /**
      * 获取用户信息
      */
-    userInfo: (state) => state.user.userInfo
+    userInfo: (state) => state.user.userInfo,
+    // 路由跳转方式
+    routerType: (state) => {
+        // 在 PC 端下，永远为 none
+        if (!isMobileTerminal.value) {
+            return 'none'
+        }
+        return state.app.routerType
+    }
 }
