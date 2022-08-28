@@ -6,6 +6,7 @@ import { useREM } from './utils/flexible'
 import useTheme from './utils/theme'
 import mLibs from './libs'
 import mDirective from './directives'
+import './permission'
 import './styles/index.scss'
 // 注册svg-icons
 import 'virtual:svg-icons-register'
