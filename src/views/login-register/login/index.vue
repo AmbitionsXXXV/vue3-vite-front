@@ -73,7 +73,7 @@
 
             <div class="flex justify-around mt-4">
                 <!-- QQ -->
-                <m-svg-icon class="w-4 cursor-pointer" name="qq"></m-svg-icon>
+                <qq-login-vue></qq-login-vue>
                 <!-- 微信 -->
                 <m-svg-icon class="w-4 cursor-pointer" name="wexin"></m-svg-icon>
             </div>
@@ -100,6 +100,7 @@ import { ref } from 'vue'
 import { useStore } from 'vuex'
 import { useRouter } from 'vue-router'
 import { LOGIN_TYPE_USERNAME } from '@/constants'
+import qqLoginVue from './qq-login.vue'
 
 const store = useStore()
 const router = useRouter()
